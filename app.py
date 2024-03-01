@@ -91,8 +91,7 @@ elif battingteam==bowlingteam:
 else:
 
     # Checking if the input values are valid or not
-    if target >= 0 and target <= 300  and overs >= 0 and overs <=20 
-    and wickets <= 10 and wickets>=0 and score>= 0:
+    if target >= 0 and target <= 300  and overs >= 0 and overs <=20 and wickets <= 10 and wickets>=0 and score>= 0:
 
         
         try:
@@ -145,5 +144,4 @@ else:
             
     #Displaying an error message if the input is incorrect        
     else:
-        st.error('There is something wrong with the input, 
-                  please fill the correct details')
+        st.error('There is something wrong with the input, please fill the correct details')
